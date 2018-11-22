@@ -57,8 +57,10 @@ cd frontend
 ng serve
 ```
 
-6- You Should install `Mocha` globally to run mocha from the terminal to test the app.
+6- You Should install `Mocha` and `istanbul` globally to run `npm test` from the terminal to test the app.
 ```
 cd root_directory
 npm install -g mocha@2.3.1
+npm install -g nyc
+npm test
 ```
